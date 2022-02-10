@@ -21,22 +21,24 @@
     left:0px; 
     overflow:hidden; 
     white-space: nowrap;
-    animation: bannermove 10s linear infinite;
+    
   }
   
-  .photobanner img {    
-    margin: 0 0em 
+  .photobanner img {   
+      width: 450px; 
+    margin: 0 0em ;
+    animation: bannermove 10s linear infinite;   
+    
   }
   
-  @keyframes bannermove {
+   @keyframes bannermove {
     0% {
        
-        transform: translate(0, 0);
+        transform: translate(00px, 0);
     }
-    5%{
-        transform: translate(0,0);
-    }
+    50%{}
+    
     100% {
-        transform: translate(-100%, 0);
+        transform: translate(-4100px, 0);
     }
-  }
+  } 
